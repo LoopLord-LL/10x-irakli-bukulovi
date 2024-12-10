@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="tables.css" />
+    <title>Tables</title>
+  </head>
+  <body>
+    <!-- Basic Table Creation -->
+    <table>
+      <caption>
+        List of Participants
+      </caption>
+      <thead>
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col">Age</th>
+          <th scope="col">Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Eleanor Rodriguez</td>
+          <td>34</td>
+          <td>eleanor.r2090@outlook.com</td>
+        </tr>
+        <tr>
+          <td>Marcus Chen</td>
+          <td>28</td>
+          <td>mchen.work@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Sophia O'Sullivan</td>
+          <td>41</td>
+          <td>sophia.osullivan@yahoo.com</td>
+        </tr>
+        <tr>
+          <td>Devon Williams</td>
+          <td>23</td>
+          <td>devon.w.williams@protonmail.com</td>
+        </tr>
+        <tr>
+          <td>Amira Hassan</td>
+          <td>37</td>
+          <td>amira.hassan85@fastmail.com</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Merging Cells (Colspan and Rowspan) -->
+    <table>
+      <caption>
+        Weekly Activity Schedule
+      </caption>
+      <thead>
+        <tr>
+          <th>&#128640;</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+          <th>Saturday</th>
+          <th>Sunday</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Morning</th>
+          <td rowspan="3">Lecture</td>
+          <td colspan="3">Practice</td>
+          <td>Sleep</td>
+          <td>Rest</td>
+          <td>Rest</td>
+        </tr>
+        <tr>
+          <th scope="row">Afternoon</th>
+          <td>Work</td>
+          <td>Sleep</td>
+          <td>Gym</td>
+          <td colspan="3">Movies</td>
+        </tr>
+        <tr>
+          <th scope="row">Evening</th>
+          <td>Sleep</td>
+          <td>Movie</td>
+          <td>Tutorials</td>
+          <td>Study</td>
+          <td>Relax</td>
+          <td>Sleep</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Table Sections with <thead>, <tbody> and <tfoot> -->
+    <table>
+      <thead>
+        <caption>
+          Shopping cart table
+        </caption>
+        <tr>
+          <th>Item Name</th>
+          <th>Quantity</th>
+          <th>Price per Item (₾)</th>
+          <th>Total Price (₾)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Coca-Cola</td>
+          <td>3</td>
+          <td>1.50</td>
+          <td>4.50</td>
+        </tr>
+        <tr>
+          <td>Mango</td>
+          <td>5</td>
+          <td>0.80</td>
+          <td>4.00</td>
+        </tr>
+        <tr>
+          <td>Orange</td>
+          <td>2</td>
+          <td>1.20</td>
+          <td>2.40</td>
+        </tr>
+        <tr>
+          <td>Dragon Fruit</td>
+          <td>1</td>
+          <td>3.00</td>
+          <td>3.00</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">Total</td>
+          <td>13.90</td>
+        </tr>
+      </tfoot>
+    </table>
+    <!--Calendar  -->
+    <table>
+      <thead>
+        <caption>
+          Calendar
+        </caption>
+        <tr>
+          <th>Sun</th>
+          <th>Mon</th>
+          <th>Tue</th>
+          <th>Wed</th>
+          <th>Thu</th>
+          <th>Fri</th>
+          <th>Sat</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td></td>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>8</td>
+          <td>9</td>
+          <td>10</td>
+          <td>11</td>
+          <td>12</td>
+          <td>13</td>
+        </tr>
+        <tr>
+          <td>14</td>
+          <td>15</td>
+          <td>16</td>
+          <td>17</td>
+          <td>18</td>
+          <td>19</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>21</td>
+          <td>22</td>
+          <td>23</td>
+          <td>24</td>
+          <td>25</td>
+          <td>26</td>
+          <td>27</td>
+        </tr>
+        <tr>
+          <td>28</td>
+          <td>29</td>
+          <td>30</td>
+          <td>31</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
