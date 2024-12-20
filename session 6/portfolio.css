@@ -1,0 +1,97 @@
+
+/* The task contains an additional CSS for beauty*/
+*{
+/* margin: 0; */
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+
+h1{
+text-align: center;
+color: darkblue;
+transition: color 0.3s ease;
+}
+
+h1:hover{
+color: rgb(234, 49, 49);
+}
+
+h2{
+font-size: 24px;
+text-decoration: underline;
+}
+
+h3{
+font-size: 20px;
+color: darkgreen;
+}
+
+p{
+font-size: 16px;
+font-size: 1.5;
+margin: 0;
+}
+
+footer{
+text-align: center;
+}
+
+nav li a{
+text-decoration: none;
+color: darkred;
+}
+
+img[src] {
+border: 2px solid black;
+border-radius: 50%;
+}
+
+a:hover{
+color:orange;
+text-decoration: underline;
+}
+
+.photo{
+width: 150px;
+height: 150px;
+}
+
+.project1{
+background-color: aquamarine;
+} 
+
+.project2{
+background-color: antiquewhite;
+} 
+
+.project3{
+background-color: bisque;
+}
+
+.project1, .project2, .project3{
+padding: 20px;
+margin: 5px 0px;
+border: 1px solid black;
+}
+
+#about{
+text-align: center;
+background-color: rgb(108, 109, 133);
+}
+
+.skills li::before {
+content: "⭐ ";
+}
+
+.nav-elements{
+display: flex;
+justify-content: space-around;
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+a.nav-items{
+font-size: 20px;
+}
