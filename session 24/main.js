@@ -66,3 +66,25 @@ console.log(strangePasscode(null, undefined));
 console.log(strangePasscode("0", 0));
 console.log(strangePasscode(0, false));
 console.log(strangePasscode(0, 0));
+
+// 8. Loki’s Illusions (Object Comparison & Identity)
+function isSameLoki(loki1, loki2) {
+  return loki1 === loki2;
+}
+
+let lokiA = { name: "Loki" };
+let lokiB = { name: "Loki" };
+let lokiC = lokiA;
+
+console.log(isSameLoki(lokiA, lokiB));
+console.log(isSameLoki(lokiA, lokiC));
+
+// 9. Schrödinger’s Cat (Advanced Boolean Logic & Edge Cases)
+function schrodingerCat(state1, state2) {
+  return Boolean(state1) === Boolean(state2);
+}
+
+console.log(schrodingerCat("alive", "dead"));
+console.log(schrodingerCat(10, undefined));
+console.log(schrodingerCat(1, "yes"));
+console.log(schrodingerCat("cat", 0));
