@@ -1,0 +1,32 @@
+ 
+9. Shape Calculator for Architects 🏗️
+Scenario: Architects need a tool for shape area calculations.
+ Tasks:
+Create a constructor function Shape(type).
+
+
+Create constructor functions Circle(radius) and Rectangle(width, height), reusing Shape.
+
+
+Use prototype to define getArea() for each shape.
+
+
+Create instances and log area using getArea().
+
+
+
+10. E-Commerce Product Management System 🛒
+Scenario: You're designing a backend for an e-commerce system.
+ Tasks:
+Create a constructor function ECommerceProduct(name, price, category).
+
+
+Add methods using prototype: applyDiscount(percent) and checkStock(stock).
+
+
+Create a constructor ElectronicsProduct(name, price, category, warrantyPeriod) that builds on ECommerceProduct.
+
+
+Override applyDiscount to apply extra discount for electronics.
+
+
