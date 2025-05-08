@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Courier New", Courier, monospace;
+  background-image: url(../bg-image.png);
+  color: #00ff00;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  color: #00ff00;
+  border: 1px solid #00ff00;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.container .input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.container .input-container input {
+  padding: 11px 20px;
+  background-color: black;
+  color: #00ff00;
+  border: 1px solid #00ff00;
+  border-radius: 5px;
+}
+.container .input-container input::placeholder {
+  color: #00ff00;
+  opacity: 1;
+}
+.container .input-container input:focus {
+  outline: none;
+}
+
+.container .bottom-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+.container .bottom-container .levels {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  border: 1px solid #00ff00;
+  border-radius: 8px;
+  padding: 10px;
+}
+.container .bottom-container .levels h3 {
+  margin: 0 auto;
+}
+.container .bottom-container .levels #easy,
+.container .bottom-container .levels #medium,
+.container .bottom-container .levels #hard {
+  max-width: 100px;
+  width: 100%;
+}
+
+.container button {
+  padding: 10px 20px;
+  border: 1px solid #00ff00;
+  border-radius: 5px;
+  background-color: #033203;
+  color: #00ff00;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.container button:hover {
+  background-color: #036603;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    padding: 20px;
+  }
+  .container {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+  }
+}
